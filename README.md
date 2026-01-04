@@ -1,6 +1,8 @@
-# CCL: Causal-aware In-context Learning for Out-of-Distribution Generalization
 
-This repository is the official implementation of **"CCL: Causal-aware In-context Learning for Out-of-Distribution Generalization"**.
+
+This repository is **to play with** the official implementation of **"CCL: Causal-aware In-context Learning for Out-of-Distribution Generalization"**. 
+
+# CCL: Causal-aware In-context Learning for Out-of-Distribution Generalization
 
 In this study, we focus on constructing a robust demonstration set to enhance the generalization of LLMs in OOD scenarios. Inspired by CRL, we propose a novel demonstration selection method, causal-aware in-context learning (CCL), which learns causal representations that remain invariant across environments and prioritizes candidates by assigning higher ranks to those with causal representations similar to the target query. Under the causal mechanism, we theoretically demonstrate that the demonstration set selected by CCL comprises candidates that are more closely related to the underlying problem addressed by the target query, rather than merely matching its context. The problem-level invariance of CCL ensures generalization performance for the target query even in unseen environments. We empirically validate that CCL operates robustly in OOD scenarios and demonstrates superior generalization performance on both synthetic and real datasets.
 
