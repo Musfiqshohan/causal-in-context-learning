@@ -1,8 +1,7 @@
 
 data/embs_backup
 data/mgsm/embs/backup
-data/mgsm/embs
-data/old
+data/mgsm/old
 existing_work/causal-semantic-generative-model-main
 existing_work/lm-evaluation-harness-main
 
