@@ -1,0 +1,121 @@
+{
+    "mgsm": {
+        "system": "Solve this math problem. Give the reasoning steps before giving the final answer on the last line by itself in \nthe format of \"Answer:\". Do not add anything other than the integer answer after \"Answer:\".",
+        "instruction": "",
+        "input": ""
+    },
+   "ood_nlp":{
+        "sa":{
+            "system": "",
+            "instruction": {
+                "icl": "### Instruction ###\n\nSolve the sentiment analysis task. Options for sentiment: negative, positive, neutral. Respond with only one of the given options\n\n### Format ###\nText: {{Text}} // Prediction: {{Prediction}}\n\n### Example ###\n\n",
+                "zs": "### Instruction ###\n\nSolve the sentiment analysis task. Options for sentiment: negative, positive, neutral. Respond with only one of the given options\n\n### Format ###\nText: {{Text}} // Prediction: {{Prediction}}\n\n"
+            },
+            "input": "### Input ###\n\n"
+        },
+        "td":{
+            "system": "",
+            "instruction": {
+                "icl": "### Instruction ###\nSolve the toxic detection task. Options for toxicity: benign, toxic. Respond with only one of the given options\n### Format ###\nText: {{Text}} // Prediction: {{Prediction}}\n### Example ###\n",
+                "zs": "### Instruction ###\nSolve the toxic detection task. Options for toxicity: benign, toxic. Respond with only one of the given options\n### Format ###\nText: {{Text}} // Prediction: {{Prediction}}\n"
+            },
+            "input": "### Input ###\n"
+        },
+        "nli":{
+            "system": "",
+            "instruction": {
+                "icl": "### Instruction ###\n\nSolve the NLI task. Options for entailment relationship: entailment, neutral, contradiction. Respond with only one of the given options\n\n### Format ###\nPremise: {{Premise}} // Hypothesis: {{Hypothesis}} // Prediction: {{Prediction}}\n\n### Example ###\n\n",
+                "zs": "### Instruction ###\n\nSolve the NLI task. Options for entailment relationship: entailment, neutral, contradiction. Respond with only one of the given options\n\n### Format ###\nPremise: {{Premise}} // Hypothesis: {{Hypothesis}} // Prediction: {{Prediction}}\n\n"
+            },
+            "input": "### Input ###\n\n"
+        },
+        "ner":{
+            "system": "",
+            "instruction": {
+                "icl": "### Instruction ###\n\nSolve the NER task, identifying the Organization, Person, Location, Miscellaneous, Building, Art, Product, and Event entities from given text.\n\n### Format ###Text: {{Text}} // Entity: Organization: None || Person: Word1 || Location: Word6, Word7 || Miscellaneous: None || Building: None || Art: Word 3 || Product: None || Event: None.\n\n### Example ###\n\n",
+                "zs": "### Instruction ###\n\nSolve the NER task, identifying the Organization, Person, Location, Miscellaneous, Building, Art, Product, and Event entities from given text.\n\n### Format ###Text: {{Text}} // Entity: Organization: None || Person: Word1 || Location: Word6, Word7 || Miscellaneous: None || Building: None || Art: Word 3 || Product: None || Event: None.\n\n"
+            },
+            "input": "### Input ###\n\n"
+        },
+        "eqa":{
+            "system": "",
+            "instruction": {
+                "icl": "### Instruction ###\n\nSolve the extractive question answering task. Refering to the passage below and extract answer for the question. The answer should be the shortest phrase as it can be.\n\n### Format ###\nPassage: {{Passage}} // Question: {{Question}} // Answer: {{Answer}}.\n\n### Example ###\n\n",
+                "zs": "### Instruction ###\n\nSolve the extractive question answering task. Refering to the passage below and extract answer for the question. The answer should be the shortest phrase as it can be.\n\n### Format ###\nPassage: {{Passage}} // Question: {{Question}} // Answer: {{Answer}}.\n\n"
+            },
+            "input": "### Input ###\n\n"
+        }
+    },
+    "llm_ret":{
+        "cqa":{
+            "system": "",
+            "instruction": "",
+            "input": ""
+        },
+        "sentiment":{
+            "system": "Do not repeat the given input. Respond concisely with a single-word or short-phrase answer.",
+            "instruction": {
+                "icl": "### Instruction ###\nThe following information provides important context to help generate an appropriate answer. Analyze it carefully before responding.\n\n### Example ###\n",
+                "zs": ""
+            },
+            "input": "### Input ###\n\n"
+        },
+        "nli":{
+            "system": "Do not repeat the given input. Respond concisely with a single-word or short-phrase answer.",
+            "instruction": {
+                "icl": "### Instruction ###\nThe following information provides important context to help generate an appropriate answer. Analyze it carefully before responding.\n\n### Example ###\n",
+                "zs": ""
+            },
+            "input": "### Input ###\n\n"
+        },
+        "commonsense":{
+            "system": "Do not repeat the given input. Respond with only one of the given options.",
+            "instruction": {
+                "icl": "### Instruction ###\nThe following information provides important context to help generate an appropriate answer. Analyze it carefully before responding.\n\n### Example ###\n",
+                "zs": ""
+            },
+            "input": "### Input ###\n\n"
+        },
+        "coreference":{
+            "system": "Do not repeat the given input. Respond with only one of the given options.",
+            "instruction": {
+                "icl": "### Instruction ###\nThe following information provides important context to help generate an appropriate answer. Analyze it carefully before responding.\n\n### Example ###\n",
+                "zs": ""
+            },
+            "input": "### Input ###\n\n"
+        },
+        "paraphrase":{
+            "system": "",
+            "instruction": {
+                "icl": "",
+                "zs": ""
+            },
+            "input": ""
+        },
+        "read_complition":{
+            "system": "",
+            "instruction": {
+                "icl": "",
+                "zs": ""
+            },
+            "input": ""
+        },
+        "data2text":{
+            "system": "",
+            "instruction": {
+                "icl": "",
+                "zs": ""
+            },
+            "input": ""
+        },
+        "summarize":{
+            "system": "",
+            "instruction": {
+                "icl": "",
+                "zs": ""
+            },
+            "input": ""
+        }
+    }
+
+}

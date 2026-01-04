@@ -1,0 +1,57 @@
+{
+    "mgsm":{ "mgsm":{
+        "X": ["Question: {}\n"],
+        "Y": ["Answer: {}\n\n"],
+        "A": ["Answer: "]
+        }
+    },
+    "ood_nlp":{
+        "sa":{
+            "X": ["Text: {} // "],
+            "Y": ["Prediction: {}\n"],
+            "A": ["Prediction: "]
+        },
+        "td":{
+            "X": ["Text: {} // "],
+            "Y": ["Prediction: {}\n"],
+            "A": ["Prediction: "]
+        },
+        "nli":{
+            "X": ["{}\n"],
+            "Y": ["Prediction: {}\n"],
+            "A": ["Prediction: "]
+        },
+        "ner":{
+            "X": ["Text: {} // "],
+            "Y": ["Entity: {}\n"],
+            "A": ["Entity: "]
+        },
+        "eqa":{
+            "X": ["{}\n"],
+            "Y": ["Answer: {}\n"],
+            "A": ["Answer: "]
+        }
+    },
+    "llm_ret":{
+        "sentiment":{
+            "X": ["{}\n"],
+            "Y": ["{}\n\n"],
+            "A": ["</Answer>positive/negative</Answer>"]
+        },
+        "nli":{
+            "X": ["{}\n"],
+            "Y": ["{}\n\n"],
+            "A": ["</Answer>yes/no</Answer>"]
+        },
+        "commonsense":{
+            "X": ["{}\n"],
+            "Y": ["{}\n\n"],
+            "A": ["</Answer>A)/B)</Answer>"]
+        },
+        "coreference":{
+            "X": ["{}\n"],
+            "Y": ["{}\n\n"],
+            "A": ["</Answer>A)/B)</Answer>"]
+        }
+    }
+}

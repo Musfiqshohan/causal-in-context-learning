@@ -1,0 +1,268 @@
+{
+    "MLPcsy1x": {
+        "lite": {
+            "dims_postx2pres": [400],
+            "dim_s": 100,
+            "dim_paras": 100,
+            "dims_posts2c": [50],
+            "dims_postc2prey": []
+        },
+        "lite-1.5x": {
+            "dims_postx2pres": [600],
+            "dim_s": 150,
+            "dim_paras": 150,
+            "dims_posts2c": [75],
+            "dims_postc2prey": []
+        },
+        "bt882": {
+            "dims_postx2pres": [400, 200],
+            "dim_s": 8,
+            "dim_paras": 8,
+            "dims_posts2c": [2],
+            "dims_postc2prey": []
+        },
+        "irm": {
+            "dims_postx2pres": [256],
+            "dim_s": 128,
+            "dim_paras": 128,
+            "dims_posts2c": [256],
+            "dims_postc2prey": []
+        },
+        "bt882-256": {
+            "dims_postx2pres": [256, 256],
+            "dim_s": 8,
+            "dim_paras": 8,
+            "dims_posts2c": [2],
+            "dims_postc2prey": []
+        }
+    },
+    "MLPx1cs": {
+    },
+    "MLPx1c": {
+    },
+    "MLPs1c": {
+        "c2s0": {
+            "dims_prec2posts": []
+        }
+    },
+    "MLPz1x":{
+        "toy":{
+            "dim_z": 16,
+            "dims_x2z": [64],
+            "dims_z2y": [32]
+        },
+        "mgsm_gpt":{
+            "dim_z": 128,
+            "dims_t2c": [512],
+            "dims_x2z": [256],
+            "dims_z2y": [256]
+        }
+    },
+    "MLPx1s":{
+        "toy":{
+            "dims_pres2postx": [64],
+            "dim_s": 16,
+            "dims_t2c": [64],
+            "dims_posts2prey": [32]
+        }
+    },
+    "MLPcsy1xte": {
+        "emb":{
+            "toy": {
+                "dim_c": 16,
+                "dim_s": 16,
+                "dims_vars2prev_xt": [64],
+                "dims_vars2prev_xe": [64],
+                "dims_c2y": [64],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [32],
+                "dims_precs2x": [32],
+                "dims_pres2e": [32]
+            },
+            "mgsm_gpt": {
+                "dim_c": 128,
+                "dim_s": 128,
+                "dims_vars2prev_xt": [256],
+                "dims_vars2prev_xe": [256],
+                "dims_c2y": [256],
+                "dim_x2c": [256],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [512],
+                "dims_precs2x": [512],
+                "dims_pres2e": [512]
+            },
+            "mgsm_gpt_small": {
+                "dim_c": 64,
+                "dim_s": 64,
+                "dims_vars2prev_xt": [256],
+                "dims_vars2prev_xe": [256],
+                "dims_c2y": [256],
+                "dim_x2c": [256],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [512],
+                "dims_precs2x": [512],
+                "dims_pres2e": [512]
+            },
+            "mgsm_nv": {
+                "dim_c": 128,
+                "dim_s": 128,
+                "dims_vars2prev_xt": [256],
+                "dims_vars2prev_xe": [256],
+                "dims_c2y": [1024],
+                "dim_x2c": [512],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [1024],
+                "dims_precs2x": [1024],
+                "dims_pres2e": [1024]
+            },
+            "mgsm_nv_samll": {
+                "dim_c": 32,
+                "dim_s": 32,
+                "dims_vars2prev_xt": [256, 64],
+                "dims_vars2prev_xe": [256, 64],
+                "dims_c2y": [128, 128, 256],
+                "dim_x2c": [256, 64],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [256, 128, 64],
+                "dims_precs2x": [512, 512],
+                "dims_pres2e": [128, 512]
+            },
+            "ood_nlp_gpt_small": {
+                "dim_c": 64,
+                "dim_s": 64,
+                "dims_vars2prev_xt": [256],
+                "dims_vars2prev_xe": [256],
+                "dims_c2y": [256],
+                "dim_x2c": [256],
+                "dims_prevs2c": [128],
+                "dims_prevs2s": [128],
+                "dims_t2c": [256,128],
+                "dims_precs2x": [128,512],
+                "dims_pres2e": [128,512]
+            },
+            "ood_nlp_gpt_middle": {
+                "dim_c": 256,
+                "dim_s": 256,
+                "dims_vars2prev_xt": [512],
+                "dims_vars2prev_xe": [512],
+                "dims_c2y": [256,512],
+                "dim_x2c": [256],
+                "dims_prevs2c": [256],
+                "dims_prevs2s": [256],
+                "dims_t2c": [512],
+                "dims_precs2x": [512,512],
+                "dims_pres2e": [256,512]
+            },
+            "ood_nlp_gpt_large": {
+                "dim_c": 1024,
+                "dim_s": 1024,
+                "dims_vars2prev_xt": [1024],
+                "dims_vars2prev_xe": [1024],
+                "dims_c2y": [1024],
+                "dim_x2c": [1024],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [1024],
+                "dims_precs2x": [1024],
+                "dims_pres2e": [1024]
+            },
+            "llm_ret_gpt": {
+                "dim_c": 128,
+                "dim_s": 128,
+                "dims_vars2prev_xt": [256],
+                "dims_vars2prev_xe": [256],
+                "dims_c2y": [256],
+                "dim_x2c": [256],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [512],
+                "dims_precs2x": [512],
+                "dims_pres2e": [512]
+            },
+            "llm_ret_gpt_small": {
+                "dim_c": 64,
+                "dim_s": 64,
+                "dims_vars2prev_xt": [256],
+                "dims_vars2prev_xe": [256],
+                "dims_c2y": [256],
+                "dim_x2c": [256],
+                "dims_prevs2c": [128],
+                "dims_prevs2s": [128],
+                "dims_t2c": [256,128],
+                "dims_precs2x": [128,512],
+                "dims_pres2e": [128,512]
+            },
+            "llm_ret_gpt_middle": {
+                "dim_c": 256,
+                "dim_s": 256,
+                "dims_vars2prev_xt": [512],
+                "dims_vars2prev_xe": [512],
+                "dims_c2y": [256,512],
+                "dim_x2c": [256],
+                "dims_prevs2c": [256],
+                "dims_prevs2s": [256],
+                "dims_t2c": [512],
+                "dims_precs2x": [512,512],
+                "dims_pres2e": [256,512]
+            },
+            "llm_ret_gpt_large": {
+                "dim_c": 1024,
+                "dim_s": 1024,
+                "dims_vars2prev_xt": [1024],
+                "dims_vars2prev_xe": [1024],
+                "dims_c2y": [1024],
+                "dim_x2c": [1024],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [1024],
+                "dims_precs2x": [1024],
+                "dims_pres2e": [1024]
+            },
+            "llm_ret_intfloat_large": {
+                "dim_c": 1024,
+                "dim_s": 1024,
+                "dims_vars2prev_xt": [1024],
+                "dims_vars2prev_xe": [1024],
+                "dims_c2y": [1024],
+                "dim_x2c": [1024],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [1024],
+                "dims_precs2x": [1024],
+                "dims_pres2e": [1024]
+            }
+        },
+        "regression":{
+            "mgsm_gpt":{
+                        "dim_c": 64,
+                        "dim_s": 64,
+                        "dims_vars2prev_xt": [512, 128],
+                        "dims_vars2prev_xe": [512, 128],
+                        "dims_c2y": [16],
+                        "dims_prevs2c": [64],
+                        "dims_prevs2s": [64],
+                        "dims_t2c": [512,128],
+                        "dims_precs2x": [512],
+                        "dims_pres2e": [512]
+            },
+            "mgsm_nv": {
+                "dim_c": 128,
+                "dim_s": 128,
+                "dims_vars2prev_xt": [256],
+                "dims_vars2prev_xe": [256],
+                "dims_c2y": [64],
+                "dim_x2c": [512],
+                "dims_prevs2c": [],
+                "dims_prevs2s": [],
+                "dims_t2c": [1024],
+                "dims_precs2x": [1024],
+                "dims_pres2e": [1024]
+            }
+        }
+    }
+}

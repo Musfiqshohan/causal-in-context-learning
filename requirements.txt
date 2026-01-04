@@ -1,0 +1,17 @@
+accelerate==1.5.2
+dalib==0.2
+datasets==3.5.0
+einops==0.8.1
+evaluate==0.4.3
+google-genai==1.5.0
+huggingface-hub==0.31.1
+matplotlib==3.10.1
+nltk==3.9.1
+openai==1.65.5
+optimum==1.24.0
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.15.2
+sentence-transformers==4.0.1
+tqdm==4.67.1
+wandb==0.19.8
